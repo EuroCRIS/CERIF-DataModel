@@ -5,8 +5,8 @@ for representing research information (i.e., information about research).
 It was developed and is being maintained by [euroCRIS](http://www.eurocris.org/).
 
 This project contains the Entity-Relationship model of CERIF.
-You can browse the <a href="http://htmlpreview.github.com/?https://github.com/EuroCRIS/CERIF-DataModel/raw/master/documentation/MInfo.html" target="_blank">latest released version</a>
-or the <a href="http://htmlpreview.github.com/?https://github.com/EuroCRIS/CERIF-DataModel/raw/develop/documentation/MInfo.html" target="_blank">development version</a>. 
+You can browse the <a href="https://cdn.rawgit.com/EuroCRIS/CERIF-DataModel/8743066b/documentation/MInfo.html" target="_blank">latest released version</a>
+or the <a href="https://rawgit.com/EuroCRIS/CERIF-DataModel/develop/documentation/MInfo.html" target="_blank">development version</a>. 
 
 The model is currently maintained using the [TOAD Data Modeler](https://www.quest.com/products/toad-data-modeler/ "The vendor webpage") tool.
 The file in the XML-based format resides in the [model/CERIF.txp](./model/CERIF.txp) file.
