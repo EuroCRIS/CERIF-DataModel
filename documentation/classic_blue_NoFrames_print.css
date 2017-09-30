@@ -1,0 +1,313 @@
+@charset "utf-8";
+/* --------------------------------------- */
+/* --------------- GENERAL --------------- */
+/* --------------------------------------- */
+
+body {
+	color: #000000;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 6pt ;
+	background : #FFFFFF;
+	visibility : visible;
+	margin: 0pt;
+	padding: 0pt;
+}
+
+.mainContainer{
+}
+
+#headerContainer {
+	background: #fff;
+	display: block;
+	position: static;
+	height: 20pt;
+	border-bottom: 1pt solid #000;
+
+}
+
+#header {
+    font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	position: static;
+	margin: 0pt;
+}
+
+.title2  {
+	color: #333;
+	font-size : 12pt;
+	font-weight : bold;
+	margin: auto;
+	padding: 0pt;
+	display: block;
+	text-transform:capitalize;
+}
+
+.title1  {
+	display: none;
+}
+
+.titleimage{
+	display: none;
+}
+
+.headerEnd {
+	display: none;
+}
+
+.headerEnd p{
+	display: none;	
+}
+
+/* --------------------------------------- */
+/* ----------- TOP NAVIGATION------------- */
+/* --------------------------------------- */
+
+#navTop {
+	display: none;
+}
+
+#navCombo {
+	display: none;
+}
+
+/* --------------------------------------- */
+/* -------------- LEFT FRAME ------------- */
+/* --------------------------------------- */
+#navLeft {
+	position: static;
+	bottom: 10px;
+	text-align: center;
+	width: 0px;
+	padding: 1px;
+	display: none;
+}
+
+#bookmark {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	font-weight : normal;
+	text-align : left;
+	margin: 0pt;
+	padding: 0pt;
+
+
+}
+
+#bookmarkEnd {
+	display: none;
+}
+
+#bookmark ul {
+	list-style-type:none;
+	margin: 0pt;
+	padding: 0pt;
+
+	
+}
+
+#bookmark ul li {
+	margin: 0pt;
+	list-style-type:none;
+	display: block;
+
+}
+
+#bookmark ul li a {
+	color: black;
+	visibility : visible;
+	display : block;
+	padding: 4pt 0pt 4pt 0pt;
+	line-height: 10pt;
+	border-bottom: 1pt solid #ccc;
+	white-space:normal;
+
+	background: #fff;
+}
+
+#bookmark ul li a:link, #bookmark ul li a:visited {
+	list-style-type:none;
+	color: #000;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	font-weight : normal;
+	text-align : left;
+	text-decoration : none;
+	visibility : visible;
+	cursor: pointer;
+
+}
+
+
+#bookmark ul li a:active {
+}
+
+.bookmarkHeader {
+	font-weight: bold; 
+	color: black;
+	border-bottom: 1pt solid #000;
+	background: #fff;
+ }
+
+#bookmark .spacer, #bookmark .spacer:hover{
+	height: 10pt;
+	line-height: 10pt;
+	padding-top: 10pt;
+	background: #fff;
+}
+
+.highlighted {
+	font-weight: bold; 
+	color: #000; 
+	background: #fff;
+	display:block 
+}
+
+.normal{
+	font-weight:  normal;
+}
+
+.separator  {
+	display: none;
+}
+
+/* --------------------------------------- */
+/* -------------- CONTENT ------------- */
+/* --------------------------------------- */
+
+.container{
+	width: 100%;
+	margin-left: 0pt;
+	padding: 0pt;
+	position: static;
+	top: 0pt;
+	z-index: 0;
+	padding-top: 0pt;
+}
+
+#content{
+	margin: 0pt;
+	margin-left: 0pt;
+	margin-right: 0pt;
+	padding-top: 5pt;
+}
+
+#contentFullPage{
+	margin: auto;
+	margin-top: 0pt;
+	width: 500pt;
+	padding: 0pt;
+}
+
+.item {
+	margin: 1pt;
+	padding: 0pt;
+	display: block;
+}
+
+.item br {
+	
+	display: none;
+}
+
+.itemHidden {
+	display: none;
+	
+}
+ 
+.itemEnd{
+	display: none;
+	
+}
+
+.itemEnd p{
+	display: none;
+	
+}
+
+.caption1 {
+	color: #000;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin: 0px;
+	margin-top: 5pt;
+	padding: 1pt;
+	padding-left: 5pt;
+	border-left: 10pt solid #666;
+}
+
+.caption1 p {
+	margin: 0pt;
+	padding: 5pt 0pt;
+	display: inline;
+	font-size: 8pt;
+	font-weight: bold;
+	
+}
+
+.caption2 {
+	color: #666;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 6pt;
+	font-weight : bold;
+	margin-top : 0pt;
+	margin-left : 0pt;
+	margin-right : 0pt;
+	margin-bottom: 0pt;
+	padding-left : 0pt;
+	padding-right : 0pt;
+	padding-top: 2pt;
+	visibility : visible;
+}
+
+.caption2 p {
+	margin: 0pt;
+	padding: 1pt 0pt;
+	color: black;
+	background:#fff;
+	text-transform:uppercase;
+	letter-spacing: 2pt;
+}
+
+.tabformat {
+	border-collapse:collapse;
+	border: 1px solid #666;
+}
+
+.tabhead {
+	color: #000;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 6pt;
+	font-weight : normal;
+	text-align : left;
+	border: 1px solid #000;
+	padding-bottom : 1px;
+	padding-left : 1px;
+	padding-right : 1px;
+	padding-top : 1px;
+	visibility : visible;
+	text-transform:uppercase;
+	letter-spacing: 1pt;
+	
+}
+
+.tabdata {
+	color: #333;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 6pt;
+	font-weight : normal;
+	text-align : left;
+	border: 1px solid #999;
+	padding-bottom : 1px;
+	padding-left : 1px;
+	padding-right : 1px;
+	padding-top : 1px;
+	visibility : visible;
+	
+}
+
+.specificItem {
+color: red;
+}
+
+#footer {
+	display: none;
+}
+
