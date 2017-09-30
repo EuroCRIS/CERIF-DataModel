@@ -2,14 +2,14 @@
 
 The **C**ommon **E**uropean **R**esearch **I**nformation **F**ormat (= CERIF) is a flexible data model 
 for representing research information (i.e., information about research). 
-It was developed and is being maintained by [http://www.eurocris.org/](euroCRIS).
+It was developed and is being maintained by [euroCRIS](http://www.eurocris.org/).
 
 This project contains the Entity-Relationship model of CERIF.
-The model is documented in the [./documentation/](documentation) directory: 
-start browsing with the [./documentation/MInfo.html](documentation/MInfo.html) file.
+You can browse the <a href="http://htmlpreview.github.com/?https://github.com/EuroCRIS/CERIF-DataModel/raw/master/documentation/MInfo.html" target="_blank">latest released version</a>
+or the <a href="http://htmlpreview.github.com/?https://github.com/EuroCRIS/CERIF-DataModel/raw/develop/documentation/MInfo.html" target="_blank">development version</a>. 
 
-The model is currently maintained using the [https://www.quest.com/products/toad-data-modeler/](TOAD Data Modeler) tool.
-The file in the XML-based format resides in the [./model/CERIF.txp](model/CERIF.txp) file.
+The model is currently maintained using the [TOAD Data Modeler](https://www.quest.com/products/toad-data-modeler/ "The vendor webpage") tool.
+The file in the XML-based format resides in the [model/CERIF.txp](./model/CERIF.txp) file.
 
 The primary aim for the CERIF model is to support information interchange in the research domain.
 We are in the process of building tools to allow all interested parties create their own **CERIF profile**: 
