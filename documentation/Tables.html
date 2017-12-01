@@ -2286,7 +2286,7 @@
 <div class="caption2"><p>Notes</p></div>
 <table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
   <tr>
-    <td class="tabdata">Classification: a tag that can be placed on objects.<br> In CERIF, the concept of Class is physically (cfClass) and logically (cfClassification) defined as an entity in an ERM, represented by attributes and through maintaining relationships with other entities: classes, multilingual descriptions, multilingual examples, multilingual definitions, multilingual terms, and all so-called CERIF link entities. <br> <br> A classification in the optimum case is uniquely identified through a uuid with the cfClassificationIdentifier (cfClassId) attribute (CERIF 1.3 provides a uuid for every specified term published at the euroCRIS website). A classification (uuid) is always assigned to at least one classification scheme (cfClassificationScheme or cfClassScheme) through the cfClassificationSchemeIdentifier (cfClassSchemeId) which is itself a uuid.<br> </td>
+    <td class="tabdata">A concept to describe a characteristic of objects or to qualify relationships between objects or concepts. Classifications are organised into Classification Schemes: every Classification belongs to exactly one Classification Scheme.<br> <br> In CERIF a Classification usually specifies the type (e.g. &quot;Journal Article&quot; - http://purl.org/coar/resource_type/c_6501) or status (e.g. &quot;Approved&quot;) of an object, or some other category – most notably a subject heading (e.g. &quot;Analytical chemistry&quot;).<br> Other Classification specify the type of relationship between two objects (e.g. &quot;Author&quot; between a Person and a Result Publication).</td>
   </tr>
 </table>
 <br>
@@ -3019,7 +3019,7 @@
 <div class="caption2"><p>Notes</p></div>
 <table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
   <tr>
-    <td class="tabdata">Classification scheme: an arrangement of Classifications to reflect a certain aspect of objects. <br> In CERIF, the concept of Classification Scheme is physically (cfClassScheme) and logically (cfClassificationScheme) defined as an entity in an ERM, represented by attributes and through maintaining relationships with other entities: classes, classification schemes, multilingual classification scheme names, multilingual classification scheme descriptions.<br> </td>
+    <td class="tabdata">A structured collection of Classifications (concepts).<br> <br> CERIF Classification Schemes can represent flat or hierarchical lists, taxonomies, thesauri, ontologies or any general arrangement of concepts.<br> <br> Examples of classification schemes include:<br> - the OECD Fields of Science classification (https://unstats.un.org/unsd/EconStatKB/KnowledgebaseArticle10269.aspx) and <br> - the COAR Resource Types controlled vocabulary (http://vocabularies.coar-repositories.org/documentation/resource_types/).<br> Another example is the Person Output Contributions scheme from the OpenAIRE Guidelines for CRIS Managers 1.0 (https://doi.org/10.5281/zenodo.17065) that consists of the concepts of Author, Editor and Publisher.<br> </td>
   </tr>
 </table>
 <br>
@@ -27036,7 +27036,7 @@
 <div class="caption2"><p>Notes</p></div>
 <table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
   <tr>
-    <td class="tabdata">A human being regarded as an individual.<br> Source: https://en.oxforddictionaries.com/definition/person<br> <br> The kind of involvement of a Person in the research ecosystem is specified in the links with the organisations, the outputs, the projects, the services, etc. This typically includes:<br> (1) researchers (Persons performing research in an Organisation Unit);<br> (2) authors and contributors (Persons signing a publication, creators of data sets, etc.);<br> (3) investigators and project participants (Persons involved in a project as principal investigators, co-investigators, project managers, etc.);<br> (4) support staffs (administrative, responsible for Equipment, data curators, technicians, librarians, etc.).<br> One Person typically has many of these relationships.<br> </td>
+    <td class="tabdata">A human being as an individual.<br> Source: https://en.oxforddictionaries.com/definition/person<br> <br> The kind of involvement of a Person in the research ecosystem is specified in the links with the organisations, the services, etc. This typically includes:<br> (1) researchers (Persons performing research in an Organisation Unit as employees or students);<br> (2) authors and contributors (Persons signing a publication, creators of data sets, software developers, etc.);<br> (3) investigators and project participants (Persons involved in a Project as principal investigators, co investigators, project managers, consultants, etc.);<br> (4) management (directors, rectors, deans, department heads, etc.);<br> (5) support staffs (technicians, responsible for Equipment, librarians and digital asset curators, administrative staff, etc.).<br> One Person typically has many of these relationships.</td>
   </tr>
 </table>
 <br>
@@ -32277,7 +32277,7 @@
 <div class="caption2"><p>Notes</p></div>
 <table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
   <tr>
-    <td class="tabdata">A piece of planned work or an activity that is finished over a period of time and intended to achieve a particular purpose.<br> Source: http://dictionary.cambridge.org/dictionary/english/project<br> <br> In the research information domain, one typically tracks research projects and projects that create or enhance infrastructure for research. Depending on the scope one can also track finer levels of granularity: stages, work packages, down to individual tasks. All such activities are also modelled using the Project entity.<br> Projects are different from OrgUnits in that they are temporary rather than permanent social systems.<br> <br> It is important to note that the Project entity only captures details of the project scope and plan. Information about the resources needed to execute the project such as the funding of a Project (i.e., the grants received), the people and organisations involved, the supporting infrastructures, the outputs produced, etc. is contained in separate entities (the Funding entity, the Person entity, the OrgUnit entity, the infrastructure entities, the result entities) and is linked to the Project.<br> </td>
+    <td class="tabdata">A temporary endeavor undertaken to create a unique product, service or result.<br> Source: the Project Management Institute, https://www.pmi.org/about/learn-about-pmi/what-is-project-management<br> <br> In the research information domain, one typically tracks:<br> (1) research projects, where the result is an addition to the body of knowledge of the mankind,<br> (2) technology development projects, where the result is a particular technology or product, <br> (3) innovation projects, where the result is an improvement of a product or process, and <br> (4) projects that create or enhance infrastructure for research, technology development or innovation. <br> <br> Depending on the scope one can also track finer levels of granularity: stages, work packages, sometimes even down to individual tasks. All such activities are also modelled using the Project entity and linked using the recursive link relationship.<br> <br> The Project entity only captures details of the project scope and plan. Information about the resources needed to execute the project such as the funding (i.e., the grants received), the people and organisations involved, the supporting infrastructures, the outputs produced, etc. is contained in separate entities (the Funding entity, the Person entity, the OrgUnit entity, the infrastructure entities, the result entities respectively) and is linked to the Project.<br> </td>
   </tr>
 </table>
 <br>
@@ -36287,7 +36287,7 @@
 <div class="caption2"><p>Notes</p></div>
 <table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
   <tr>
-    <td class="tabdata">A patent is a form of intellectual property. It consists of a set of exclusive rights granted by a sovereign state to an inventor or their assignee for a limited period of time in exchange for the public disclosure of an invention.<br> <br> Definition Source: http://en.wikipedia.org/wiki/Patent<br> </td>
+    <td class="tabdata">A set of exclusive rights granted by a sovereign state to an inventor or assignee for a limited period of time in exchange for detailed public disclosure of an invention.<br> Source: Wikipedia</td>
   </tr>
 </table>
 <br>
@@ -38367,7 +38367,7 @@
 <div class="caption2"><p>Notes</p></div>
 <table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="100%">
   <tr>
-    <td class="tabdata">In CERIF, the concept of product is physially (cfResProd) and logically (cfResultProduct) defined as an entity in the ERM, represented by attributes and through maintaining relationships with other entities: classifications, fundings, products, projects, organisations, persons, facilities, equipments, services, media, indicators, measurements.<br> <br> The entity product in CERIF has often caused confusion, it was maybe not stressed enough, that a CERIF product is considered a result in general, achieved through some effort - and not at all is it a commercial or physical product only. It was intended to also represent i.e. software or 'research data'.<br> </td>
+    <td class="tabdata">Any result of research other than Publication or Patent. <br> <br> This includes:<br> (1) visualisations: still or moving images, including maps and other cartographic material,<br> (2) audio recordings,<br> (3) other objects that can be perceived through human senses,<br> (4) research datasets,<br> (5) software,<br> (6) workflows.</td>
   </tr>
 </table>
 <br>
