@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- name : "The euroCRIS CERIF Task Group"
+- website: http://www.eurocris.org/
+title: "CERIF-DataModel"
+version: 1.6.1
+date-released: "Feb 28, 2021"
+url: "https://github.com/aubertc/CERIF-DataModel"
