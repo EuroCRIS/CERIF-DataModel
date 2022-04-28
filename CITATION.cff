@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you refer to this data model, please cite it as below."
+authors:
+- name : "The euroCRIS CERIF Task Group"
+  website: https://eurocris.org/services/main-features-cerif
+title: "CERIF-DataModel"
+version: 1.6.1
+date-released: "2012"
+url: "https://github.com/EuroCRIS/CERIF-DataModel"
