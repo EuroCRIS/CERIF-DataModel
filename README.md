@@ -9,7 +9,7 @@ You can browse the **documentation of the
 [latest released version (1.6.1)](https://eurocris.github.io/CERIF-DataModel/released/index.html)**
 or the [development version](https://eurocris.github.io/CERIF-DataModel/develop/index.html). 
 
-The model is currently maintained using the [TOAD Data Modeler](https://www.quest.com/products/toad-data-modeler/ "The vendor webpage") tool.
+The model is maintained using the [TOAD Data Modeler](https://www.quest.com/toad) tool.
 The file in the XML-based format resides in the [model/CERIF.txp](./model/) file. There is also an experimental dump of the model contents in RDF, accessible at [https://w3id.org/cerif/model](https://w3id.org/cerif/model).
 
 The primary aim for the CERIF model is to support information interchange in the research domain.
