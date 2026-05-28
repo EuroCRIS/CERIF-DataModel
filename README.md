@@ -21,6 +21,9 @@ We also support publishing of research information as Linked Open Data.
 The CERIF RDF will be brough up-to-date with the CERIF model itself 
 and placed in another fellow project.
 
+**Status**: The classic CERIF model is not being further developed. 
+We are focusing on [CERIF 2.0](https://github.com/euroCRIS/CERIF-Core), using a more modular approach.
+
 -- The euroCRIS CERIF Task Group
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />The CERIF data model is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
